@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DianShan.iml" filepath="$PROJECT_DIR$/.idea/DianShan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/common/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-product/service-product.iml" filepath="$PROJECT_DIR$/service/service-product/service-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-test/service-test.iml" filepath="$PROJECT_DIR$/service/service-test/service-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/common/service-util/service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/web-util/web-util.iml" filepath="$PROJECT_DIR$/common/web-util/web-util.iml" />
     </modules>
   </component>
 </project>

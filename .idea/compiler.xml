@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-product" />
+        <module name="service-util" />
+        <module name="web-util" />
+        <module name="common-util" />
+        <module name="service-test" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="commit" target="1.8" />
+      <module name="commit-util" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-util" target="1.8" />
       <module name="DianShan" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-product" target="1.8" />
+      <module name="service-test" target="1.8" />
+      <module name="service-util" target="1.8" />
+      <module name="web-util" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commit" options="-parameters" />
+      <module name="commit-util" options="-parameters" />
+      <module name="common-util" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-product" options="-parameters" />
+      <module name="service-test" options="-parameters" />
+      <module name="service-util" options="-parameters" />
+      <module name="web-util" options="-parameters" />
+    </option>
   </component>
 </project>
