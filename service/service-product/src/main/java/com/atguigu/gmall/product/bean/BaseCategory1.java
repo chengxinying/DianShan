@@ -9,7 +9,7 @@ import lombok.Data;
 public class BaseCategory1 {
     private Long id;
     private String name;
-
+    private String age;
     public Long getId() {
         return id;
     }
