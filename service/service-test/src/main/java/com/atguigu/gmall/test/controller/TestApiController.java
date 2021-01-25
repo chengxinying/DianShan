@@ -12,5 +12,8 @@ public class TestApiController {
 
         return "test";
     }
+    public void tests(){
 
+
+    }
 }
